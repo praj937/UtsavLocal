@@ -14,6 +14,28 @@ Bengaluru is a vibrant mosaic of historic cultural traditions and thriving moder
 
 ---
 
+## ⚡ 1-Click Streamlit Cloud Deployment
+
+UtsavLocal is fully configured for **Streamlit Community Cloud** (`share.streamlit.io`):
+- **Entry File:** `app.py`
+- **Dependencies:** `requirements.txt`
+- **Theme Config:** `.streamlit/config.toml`
+
+### Deploy on Streamlit in 3 Steps:
+1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
+2. Click **"New app"** and select:
+   - **Repository:** `praj937/UtsavLocal`
+   - **Branch:** `main`
+   - **Main file path:** `app.py`
+3. Click **"Deploy!"** — Your app goes live with live Bengaluru events, search, filters, persona switching, and admin moderation!
+
+To test Streamlit locally:
+```bash
+python -m streamlit run app.py
+```
+
+---
+
 ## 🏛️ System Architecture & Tech Stack
 
 ```mermaid

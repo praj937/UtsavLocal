@@ -28,3 +28,6 @@ lerna-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+__pycache__/
+*.pyc
+utsavlocal_data.json
