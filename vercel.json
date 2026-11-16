@@ -7,9 +7,16 @@
   },
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/assets/(.*)",
       "destination": {
         "service": "web"
+      }
+    },
+    {
+      "source": "/((?!assets/).*)",
+      "destination": {
+        "service": "web",
+        "path": "/index.html"
       }
     }
   ]
